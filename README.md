@@ -11,7 +11,7 @@ Source: [Link]("https://www.fast.ai/")
 
 Triton Inference Server provides a cloud and edge inferencing solution optimized for both CPUs and GPUs. Triton supports an HTTP/REST and GRPC protocol that allows remote clients to request inferencing for any model being managed by the server. For edge deployments, Triton is available as a shared library with a C API that allows the full functionality of Triton to be included directly in an application.
 
-I would like to recommend this awesome blog [Deploying Deep Learning Models with Model Server](https://wobotintelligence-my.sharepoint.com/:w:/g/personal/animikh_wobot_ai/EccXEf5pTDBAi0UxJUjNDBYBQA8cDlECc1aKOazaQJLocQ?e=4%3A6i3PrQ&at=9) by Animikh Aich, if you want to build a great intuitive understanding of Triton Server.
+I would like to recommend this awesome blog [Deploying Deep Learning Models with Model Server](https://hackernoon.com/deploying-deep-learning-models-with-model-server) by Animikh Aich, if you want to build a great intuitive understanding of Triton Server.
 
 Triton supports the following models for the deployment:
 * [TensorRT Models](https://developer.nvidia.com/tensorrt)
@@ -273,7 +273,7 @@ As we have our ONNX model ready, we will now be deploying it on Nvidia Triton Se
 
 ![image.png](images/triton.png)
 
-Recommended read: [Deploying Deep Learning Models with Model Server](https://wobotintelligence-my.sharepoint.com/:w:/g/personal/animikh_wobot_ai/EccXEf5pTDBAi0UxJUjNDBYBQA8cDlECc1aKOazaQJLocQ?e=4%3A6i3PrQ&at=9)
+Recommended read: [Deploying Deep Learning Models with Model Server](https://hackernoon.com/deploying-deep-learning-models-with-model-server)
 
 * Create a directory structure like this. The detailed instructions can be found in the official [readme](https://github.com/triton-inference-server/server/blob/main/docs/model_repository.md) provided by Nvidia:
 
